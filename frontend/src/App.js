@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Web3 from "web3";
 
-const contractAddress = '0x592c9e09497cc2cccbefc975466008be4d6d9bbd';
+const contractAddress = 'YOUR_CONTRACT_ADDRESS';
 const abi = [
   { "inputs": [], "stateMutability": "nonpayable", "type": "constructor" },
   { "anonymous": false, "inputs": [{ "indexed": false, "internalType": "string", "name": "name", "type": "string" }, { "indexed": false, "internalType": "uint256", "name": "index", "type": "uint256" }], "name": "CandidateAdded", "type": "event" },
