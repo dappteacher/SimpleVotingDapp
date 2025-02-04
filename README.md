@@ -21,7 +21,7 @@ SimpleVotingDApp is a decentralized application (DApp) that allows users to vote
 Ensure you have the following installed:
 - [Node.js](https://nodejs.org/)
 - [MetaMask](https://metamask.io/) (for interacting with the blockchain)
-- [Hardhat](https://hardhat.org/) or [Truffle](https://trufflesuite.com/)
+- [Hardhat](https://hardhat.org/)
 
 ### Steps
 1. Clone the repository:
