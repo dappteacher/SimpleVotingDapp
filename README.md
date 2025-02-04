@@ -49,7 +49,7 @@ Ensure you have the following installed:
 Before running the application, update the contract address and Infura endpoint in the appropriate files:
 
 1. **Smart Contract Address:**  
-   Replace your deployed contract address in the frontend config (e.g., `config.js` or `.env` file):
+   Replace your deployed contract address in the frontend config (e.g., `src/App.js` and `.env` file):
    ```js
    const CONTRACT_ADDRESS = "YOUR_CONTRACT_ADDRESS";
    ```
