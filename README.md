@@ -11,7 +11,7 @@ SimpleVotingDApp is a decentralized application (DApp) that allows users to vote
 
 ## Tech Stack
 - **Smart Contracts:** Solidity
-- **Frontend:** JavaScript, HTML, CSS , Bootstrap and React
+- **Frontend:** JavaScript, HTML, CSS, Bootstrap, and React
 - **Blockchain Interaction:** Web3.js
 - **Development Environment:** Hardhat/Truffle
 
@@ -37,14 +37,20 @@ Ensure you have the following installed:
    ```sh
    npx hardhat compile
    ```
-4. Deploy the contracts:
+4. Test the smart contracts:
    ```sh
-   npx hardhat run scripts/deploy.js --network localhost
+   npx hardhat test
+   ```   
+5. Deploy the contracts on Sepolia and replace the values based on "Configuration":
+   ```sh
+   npx hardhat run scripts/deploy.js --network sepolia
    ```
-5. Start the development server:
+6. Start the development server:
    ```sh
+   cd frontend
    npm start
    ```
+
 ### **Configuration**
 Before running the application, update the contract address and Infura endpoint in the appropriate files:
 
