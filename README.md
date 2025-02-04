@@ -48,6 +48,7 @@ Ensure you have the following installed:
 6. Start the development server:
    ```sh
    cd frontend
+   npm install
    npm start
    ```
 
